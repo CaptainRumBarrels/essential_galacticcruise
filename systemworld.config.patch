@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/objectSpawnPool/-",
+    "value": [
+      0.25, "essential_gc_ship01"
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "op" : "add",
+    "path" : "/essential_gc_ship01",
+    "value" : {
+      "primaryDungeon" : "essential_gc_ship01",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 1000],
+      "dungeonBaseHeight" : 1000,
+      "dungeonSurfaceHeight" : 500,
+      "ambientLightLevel" : [255, 255, 255],
+      "biome" : "essential_gc_shipbiome",
+      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+	  "environmentStatusEffects" : ["biomeairless"],
+      "worldEdgeForceRegions" : "TopAndBottom"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/essential_gc_ship01passport",
+    "value" : {
+      "primaryDungeon" : "essential_gc_ship01passport",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 1000],
+      "dungeonBaseHeight" : 1000,
+      "dungeonSurfaceHeight" : 500,
+      "ambientLightLevel" : [255, 255, 255],
+      "biome" : "essential_gc_shipbiome",
+      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+      "musicTrack" : "/music/large-magellanic-cloud.ogg",
+	  "environmentStatusEffects" : ["biomeairless"],
+      "worldEdgeForceRegions" : "TopAndBottom"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/essential_gc_ship01player",
+    "value" : {
+      "primaryDungeon" : "essential_gc_ship01player",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 1000],
+      "dungeonBaseHeight" : 1000,
+      "dungeonSurfaceHeight" : 500,
+      "ambientLightLevel" : [255, 255, 255],
+      "biome" : "essential_gc_shipbiome",
+      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+	  "environmentStatusEffects" : ["biomeairless"],
+      "worldEdgeForceRegions" : "TopAndBottom"
+    }
+  }
+]

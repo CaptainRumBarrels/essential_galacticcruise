@@ -1,0 +1,30 @@
+[
+  {
+    "op" : "add",
+    "path" : "/essential_gc_ship01",
+    "value" : {
+      "warpAction" : "InstanceWorld:essential_gc_ship01",
+      "threatLevel" : 1,
+      "skyParameters" : {
+        "seed" : 0,
+        "horizonClouds" : false,
+        "horizonImages" : [ { "left": "/celestial/system/ships/essential_gc_left.png", "right": "/celestial/system/ships/essential_gc_right.png" } ]
+      },
+
+      "permanent" : false,
+
+      "moving" : false,
+      "speed" : 30.0,
+      "orbitRange" : [10, 10],
+      "lifeTime" : [1500, 2100],
+      "parameters" : {
+        "icon" : "/celestial/system/ships/essential_gc_shipicon.png",
+
+        "displayName" : "Colony Ship",
+        "description" : "Scanners indicate a large population with various facilities on board for deep space travel.",
+
+        "bookmarkIcon" : "spacestation"
+      }
+    }
+  }
+]

@@ -1,0 +1,294 @@
+{
+  "type" : "essential_gc_villager",
+  "baseType" : "villager",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0.5
+    },
+    "questGenerator" : {
+      "pools" : ["common"],
+      "enableParticipation" : true,
+
+      // Every 30 seconds, decide whether to generate a quest and if so, spend
+      // the rest of the 30s window trying to generate it.
+      "timeLimit" : 30,
+
+      // Don't generate new quests if there are already more than <nearbyQuestLimit>
+      // questmanager stagehands nearby, within a <nearbyQuestRange> tile range.
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+      "questCountRange" : [1, 4],
+      
+      "graduation" : {
+        "nextNpcType" : [
+          [1, "crewmember"],
+          [0.25, "crewmemberchemistblue"],
+          [0.25, "crewmemberchemistgreen"],
+          [0.25, "crewmemberchemistyellow"],
+          [0.25, "crewmemberchemistorange"],
+          [1, "crewmemberengineer"],
+          [1, "crewmembermechanic"],
+          [1, "crewmembermedic"],
+          [1, "crewmemberjanitor"],
+          [1, "crewmembertailor"]
+        ]
+      }
+    },
+
+    "dialog" : {
+      "converse" : "/dialog/spaceconverse.config:converse"
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "human" : [
+      [0, [
+          {
+            "chest" : [
+			  { "name" : "startrackchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "protectorateshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "protectoratechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "tshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "kimonochest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "protectoratepants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          },
+		  {
+            "head" : [
+			  { "name" : "visorhead" },
+			  { "name" : "humantier1head" }
+			],
+			"chest" : [
+			  { "name" : "startrackchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "protectorateshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "protectoratechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "tshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "kimonochest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "protectoratepants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          }
+        ] ]
+    ],
+	
+	"avian" : [
+      [0, [
+          {
+			"chest" : [
+			  { "name" : "deadbeatspandexchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "protectoratechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "tshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "monkchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "protectoratepants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          },
+		  {
+            "head" : [
+			  { "name" : "phrygiancaphead", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "phoenixhat", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			],
+			"chest" : [
+			  { "name" : "bedouinchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "protectoratechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "tshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "traineechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "protectoratepants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          }
+        ] ]
+    ],
+	
+	"apex" : [
+      [0, [
+          {
+			"chest" : [
+			  { "name" : "jumpsuitchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "protectoratechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "tshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "apexofficerjacket", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "protectoratepants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          },
+		  {
+            "head" : [
+			  { "name" : "bandithat1", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "humantier1head", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			],
+			"chest" : [
+			  { "name" : "bedouinchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "protectoratechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "protectorateshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "apexofficerjacket", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "protectoratepants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          }
+        ] ]
+    ],
+	
+	"floran" : [
+      [0, [
+          {
+			"chest" : [
+			  { "name" : "protectorateshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "protectoratechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "floranpeltchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "protectoratepants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          },
+		  {
+			"head" : [
+			  { "name" : "featherhead" },
+			  { "name" : "protectorateflowerhead", "parameters" : { "colorIndex" : [0,3,4,8,9] } }
+			],
+			"chest" : [
+              { "name" : "protectorateshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "tshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "predatorypants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          }
+        ] ]
+    ],
+	
+	"glitch" : [
+      [0, [
+		  {
+			"chest" : [
+			  { "name" : "protectoratechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "startrackchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "copperarmorchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "noblechest", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "protectoratepants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          },
+		  {
+			"head" : [
+			  { "name" : "visorhead" },
+			  { "name" : "mechpilothead" },
+			  { "name" : "humantier1head" }
+			  ],
+			"chest" : [
+			  { "name" : "protectoratechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "startrackchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "copperarmorchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "legs" : [
+			  { "name" : "protectoratepants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          }
+        ] ]
+    ],
+	"hylotl" : [
+      [0, [
+          {
+            "chest" : [
+			  { "name" : "startrackchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "protectorateshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "kimonochest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "bedouinchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "monkchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "protectoratepants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          },
+		  {
+            "head" : [
+			  { "name" : "protectorateflowerhead", "parameters" : { "colorIndex" : [0,4,8,9] } },
+			  { "name" : "headbandhead", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "glasses3eyes" }
+			  
+			],
+			"chest" : [
+			  { "name" : "startrackchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "protectorateshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "protectoratechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "bedouinchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "monkchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "protectoratepants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          }
+        ] ]
+    ],
+	
+	"novakid" : [
+      [0, [
+          {
+			"chest" : [
+			  { "name" : "noblechest", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "novakidjacket", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "protectorateshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "protectoratechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "protectoratepants", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          },
+		  {
+			"head" : [
+			  { "name" : "novatier1head", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "cowboyhead" }
+			  
+			],
+			"chest" : [
+			  { "name" : "novatier1chest", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "smartchest", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "protectorateshirtchest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "protectoratechest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "legs" : [
+			  { "name" : "novatier1pants", "parameters" : { "colorIndex" : [1, 4, 5, 6, 7, 8, 9] } }
+			  ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcpistol" ]
+          }
+        ] ]
+    ]	
+  }
+}

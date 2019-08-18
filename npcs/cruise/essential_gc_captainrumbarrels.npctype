@@ -1,0 +1,79 @@
+{
+  "type" : "essential_gc_captainrumbarrels",
+  "baseType" : "base",
+
+  "identity" : {
+    "name" : "CaptainRumBarrels",
+    "gender" : "male",
+    "hairGroup" : "hair",
+    "hairType" : "male27",
+	"personalityIdle" : "idle.4",
+	"personalityArmIdle" : "idle.2",
+    "bodyDirectives" : "?replace=ffe2c5FF=ffd7b0FF?replace=ffc181FF=ffad6bFF?replace=d39c6cFF=c18757FF?replace=c7815bFF=b46b48FF",
+    "emoteDirectives" : "?replace=ffe2c5FF=fff7ecFF?replace=ffc181FF=f9d3a9FF?replace=d39c6cFF=d3a57cFF?replace=c7815bFF=b37c5dFF",
+    "hairDirectives" : "?replace=d9c189FF=372f1dFF?replace=a38d59FF=272115FF?replace=735e3aFF=1b170eFF"
+  },
+  
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "damageTeamType" : "friendly",
+
+  "scriptConfig" : {
+    "behavior" : "lounger",
+
+    "dialogMode" : "sequence",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "FLABBER ME GASTERS! HOW'D YE FIND ME HERE?!?",
+            "Please Don't be tellin' the crew. I've just setup shop here.",
+            "I care not fer such trifles, last thing ye want o be doin with me is drawrin steele",
+            "Tell ye what, I be but a fair man, ye can have me loot if promise to keep yer blabberin' mouth shut!",
+			"Hope ye like this mod lads! Ye can always lend this captains ear on the humble discord."
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "eyepatchhead", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "tshirtchest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "humantier1pants", "parameters" : { "colorIndex" : 0 } }
+            ],
+			"back" : [
+              { "name" : "pirateback", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 50.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

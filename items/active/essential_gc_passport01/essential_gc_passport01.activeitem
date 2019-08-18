@@ -1,0 +1,18 @@
+{
+  "itemName" : "essential_gc_passport01",
+  "level" : 1,
+  "price" : 5000,
+  "rarity" : "Rare",
+  "description" : "A one way ticket to a luxurious, state of the art, Colony Class, Galactic Cruiser.",
+  "shortdescription" : "Guest Pass",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : [],
+
+  "inventoryIcon" : "essential_gc_passport01.png",
+  "animation" : "essential_gc_passport01.animation",
+  "animationParts" : {
+    "transponder" : "essential_gc_passport01small.png"
+  },
+  "scripts" : ["essential_gc_passport01.lua"]
+}

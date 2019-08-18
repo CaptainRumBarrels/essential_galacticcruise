@@ -1,0 +1,39 @@
+{
+  "objectName" : "essential_gc_cinema",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "description" : "The World will soon end with Starmageddon",
+  "shortdescription" : "Cruise Ship Theater screen",
+  "race" : "human",
+
+  "lightColor" : [89, 149, 179],
+
+  "inventoryIcon" : "essential_gc_cinemaicon.png",
+  "orientations" : [
+    {
+      "image" : "essential_gc_cinema.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "essential_gc_cinema.animation",
+  "animationParts" : {
+    "bg" : "essential_gc_cinema.png",
+    "fg" : "essential_gc_cinema.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

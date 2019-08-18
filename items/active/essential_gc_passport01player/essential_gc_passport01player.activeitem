@@ -1,0 +1,18 @@
+{
+  "itemName" : "essential_gc_passport01player",
+  "level" : 1,
+  "price" : 5000,
+  "rarity" : "Rare",
+  "description" : "Citizens of Galactic cruise colonies may live and build in designated areas on the ship.",
+  "shortdescription" : "Colony Passport",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : [],
+
+  "inventoryIcon" : "essential_gc_passport01player.png",
+  "animation" : "essential_gc_passport01player.animation",
+  "animationParts" : {
+    "transponder" : "essential_gc_passport01playersmall.png"
+  },
+  "scripts" : ["essential_gc_passport01player.lua"]
+}

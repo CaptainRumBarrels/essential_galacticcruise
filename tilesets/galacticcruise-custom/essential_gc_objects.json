@@ -1,0 +1,23 @@
+{ "columns":0,
+ "margin":0,
+ "name":"essential_gc_objects",
+ "properties":
+    {
+
+    },
+ "spacing":0,
+ "tilecount":2,
+ "tileheight":63,
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/..\/tiled\/essential_gc_tiled\/objects\/essential_gc_power.png"
+        },
+     "1":
+        {
+         "image":"..\/..\/..\/..\/tiled\/essential_gc_tiled\/objects\/essential_gc_cinema.png"
+        }
+    },
+ "tilewidth":159
+}

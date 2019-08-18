@@ -1,0 +1,35 @@
+{ "columns":0,
+ "margin":0,
+ "name":"essential_gc_ship01parts",
+ "properties":
+    {
+
+    },
+ "spacing":0,
+ "tilecount":5,
+ "tileheight":748,
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/..\/tiled\/essential_gc_tiled\/objects\/essential_gc_ship01part1.png"
+        },
+     "1":
+        {
+         "image":"..\/..\/..\/..\/tiled\/essential_gc_tiled\/objects\/essential_gc_ship01part2.png"
+        },
+     "2":
+        {
+         "image":"..\/..\/..\/..\/tiled\/essential_gc_tiled\/objects\/essential_gc_ship01part3.png"
+        },
+     "3":
+        {
+         "image":"..\/..\/..\/..\/tiled\/essential_gc_tiled\/objects\/essential_gc_ship01part4.png"
+        },
+     "4":
+        {
+         "image":"..\/..\/..\/..\/tiled\/essential_gc_tiled\/objects\/essential_gc_ship01part5.png"
+        }
+    },
+ "tilewidth":748
+}

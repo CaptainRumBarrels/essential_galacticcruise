@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "name" : "essential_gc_ship01player",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "essential_gc_ship01player" ],
+    "gravity" : 100,
+	"breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    // GALACTIC CRUISE SHIP
+	{
+      "name" : "essential_gc_ship01player",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+        [ "doNotCombineWith", [
+          "essential_gc_ship01player"
+        ] ]
+      ],
+      "def" : [ "tmx", "essential_gc_ship01player.json" ],
+      "chance" : 0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type" : "essential_gc_swimmer",
+  "baseType" : "villager",
+
+  "scriptConfig" : {
+
+    "reactions" : {
+      "spontaneous" : [
+      ]
+    },
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+    "behaviorConfig" : {
+      "play" : false,
+      "chat" : false
+    },
+
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
+
+    "dialog" : {
+      "converse" : "/dialog/shipcrew.config:converse"
+    }
+  },
+  
+  "matchColorIndices" : false,
+  "items" : {
+    "override" : [
+      [0, [
+		  {
+            "head" : [ "" ],
+			"chest" : [ "" ],
+            "legs" : [ "" ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          }
+        ] ]
+    ]
+  }
+}

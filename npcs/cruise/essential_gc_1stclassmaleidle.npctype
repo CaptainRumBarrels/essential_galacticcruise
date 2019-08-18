@@ -1,0 +1,64 @@
+{
+  "type" : "essential_gc_1stclassmaleidle",
+  "baseType" : "villager",
+
+  "identity" : {
+    "gender" : "male"
+  },
+  
+  "scriptConfig" : {
+    "behavior" : "lounger",
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : "/dialog/spaceconverse.config:converse"
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "fedorahead", "parameters" : { "colorIndex" : [1,11] } },
+			  { "name" : "fedorahead", "parameters" : { "colorIndex" : [1,11] } },
+			  { "name" : "glasses2head" },
+			  { "name" : "tophathead" },
+			  { "name" : "toptophathead" }
+			  		  
+            ],
+            "chest" : [
+			  { "name" : "novakidwaistcoat", "parameters" : { "colorIndex" : [1,11] } },
+			  { "name" : "neckruffle", "parameters" : { "colorIndex" : [1,11] } },
+			  { "name" : "smartchest", "parameters" : { "colorIndex" : [1,11] } },
+			  { "name" : "moneybagschest", "parameters" : { "colorIndex" : [1,11] } }
+              
+            ],
+            "legs" : [
+              { "name" : "novakidblackpants", "parameters" : { "colorIndex" : [1,11] } }
+            ]
+          },
+		  {
+            "head" : [
+              { "name" : "tricornhat", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "venetianmaskhead", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "plaguedoctorhead", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "bettyhead", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "predatoryhead", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }			  
+            ],
+            "chest" : [
+			  { "name" : "neckruffle", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } },
+			  { "name" : "noblechest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+              
+            ],
+            "legs" : [
+              { "name" : "noblelegs", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11] } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

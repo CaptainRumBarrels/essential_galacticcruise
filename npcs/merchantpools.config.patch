@@ -1,0 +1,39 @@
+[
+  {
+    "op" : "add",
+    "path" : "/essential_gc_travelagent",
+	"value" : [
+      [0, [
+			{ "item" : { "name" : "protectoratechest" }, "rarity" : 0.2 },
+			{ "item" : { "name" : "protectoratepants" }, "rarity" : 0.2 },
+			{ "item" : { "name" : "captainshead" }, "rarity" : 0.2 },
+			{ "item" : { "name" : "essential_gc_passport01" }, "rarity" : 0.2, "price" : 3000 },
+			{ "item" : { "name" : "essential_gc_passport01player" }, "rarity" : 0.2, "price" : 20000 }
+      ]]
+    ]
+  },
+  {
+    "op" : "add",
+    "path" : "/essential_gc_farmmerchant",
+	"value" : [
+      [0, [
+			{ "item" : { "name" : "bananaseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "beakseedseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "carrotseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "chiliseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "cocoaseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "coffeeseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "cornseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "grapesseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "kiwiseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "pearlpeaseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "pineappleseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "potatoseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "riceseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "sugarcaneseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "tomatoseed", "rarity" : 0.1 } },
+			{ "item" : { "name" : "wheatseed", "rarity" : 0.1 } }			
+      ]]
+    ]
+  }
+]

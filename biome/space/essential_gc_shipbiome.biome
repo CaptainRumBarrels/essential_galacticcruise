@@ -1,0 +1,96 @@
+{
+  "name" : "essential_gc_shipbiome",
+  "friendlyName" : "hyperspace",
+
+  "hueShiftOptions" : [ 0 ],
+
+  "weather" : [
+    [0, [
+      "/weather.config:garden"
+    ]]
+  ],
+
+  "skyOptions" : [
+    {
+      // sunny earth days, red/orange sunrise and purple/red sunset
+      "mainColor" : [255, 255, 255],
+
+      "morningColors" : [ [255, 255, 255], [255, 255, 255] ],
+      "dayColors" : [ [255, 255, 255], [255, 255, 255] ],
+      "eveningColors" : [ [255, 255, 255], [255, 255, 255] ],
+      "nightColors" : [ [255, 255, 255], [255, 255, 255] ],
+
+      "morningLightColor" : [255, 255, 255],
+      "dayLightColor" : [255, 255, 255],
+      "eveningLightColor" : [255, 255, 255],
+      "nightLightColor" : [255, 255, 255]
+    }
+  ],
+
+  "mainBlock" : "dirt",
+  "subBlocks" : [ "cobblestone", "mud" ],
+  "ores" : "surface",
+
+  "parallax" : "/parallax/space/essential_gc_hyperspace.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : []
+    },
+    "night" : {
+      "tracks" : []
+    }
+  },
+  
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [
+	    "/music/essential_gc_interloper.ogg",
+	    "/music/essential_gc_vanisher.ogg",
+		"/music/essential_gc_lostangeles.ogg",
+		"/music/essential_gc_rca+.ogg",
+		"/music/essential_gc_awakening.ogg"
+		]
+    },
+    "night" : {
+      "tracks" : [
+	    "/music/essential_gc_interloper.ogg",
+	    "/music/essential_gc_vanisher.ogg",
+		"/music/essential_gc_lostangeles.ogg",
+		"/music/essential_gc_rca+.ogg",
+		"/music/essential_gc_awakening.ogg"
+		]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ ],
+    "grassModDensity" : 1.0,
+
+    "ceilingGrassMod" : [ ],
+    "ceilingGrassModDensity" : 0.4,
+
+    "items" : [ ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ ],
+    "grassModDensity" : 0.2,
+
+    "ceilingGrassMod" : [ ],
+    "ceilingGrassModDensity" : 0.3,
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 1,
+        "period" : 5,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "grass",
+        "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "type" : "essential_gc_travelagent",
+  "baseType" : "merchant",
+
+  "damageTeamType" : "assistant",
+  "damageTeam" : 1,
+
+  "persistent" : true,
+
+  "scriptConfig" : {
+
+    "reactions" : {
+      "spontaneous" : [
+      ]
+    },
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+    "behaviorConfig" : {
+      "play" : false,
+      "chat" : false
+    },
+
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
+
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "categories" : {
+        "human" : ["essential_gc_travelagent"]
+      },
+
+      "rotateStock" : false,
+      "rotationTime" : 86400,
+
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 5,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "Galactic Cruise Merchant",
+          "subtitle" : "Travel Consultant"
+        }
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "Hello. You look like you could use a holiday. Are you interested in purchasing a boarding pass?"
+            ]
+          }
+        },
+        "welcome" : {
+          "default" : {
+            "default" : [
+              "Welcome, I work for the Galactic Cruise Company. We are the biggest and only manufacturer so far of colonial ships."
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "If you change your mind, you know where to find me.",
+              "I hope to see you again. Enjoy the rest of your day."
+            ]
+          }
+        },
+        "follow" : "/dialog/merchant.config:follow",
+        "tout" : {
+          "default" : {
+            "default" : [
+              "I have equipment for sale. Perhaps you would like to purchase your own ship?",
+              "I have cruise tickets for sale. Come and book a holiday today!"
+            ]
+          }
+        }
+      }
+    }
+  },
+  
+  "matchColorIndices" : false,
+  "items" : {
+    "override" : [
+      [0, [
+		  {
+            "head" : [ { "name" : "captainshead", "parameters" : { "colorIndex" : 3 } } ],
+			"chest" : [ { "name" : "protectoratechest", "parameters" : { "colorIndex" : 8 } } ],
+            "legs" : [ { "name" : "humantier3pants", "parameters" : { "colorIndex" : 3 } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "" ]
+          }
+        ] ]
+    ]
+  }
+}

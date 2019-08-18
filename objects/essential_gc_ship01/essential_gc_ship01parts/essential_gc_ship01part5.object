@@ -1,0 +1,22 @@
+{
+  "objectName" : "essential_gc_ship01part5",
+  "colonyTags" : [],
+  "rarity" : "Common",
+  "description" : "A set piece not designed to be used as an object.",
+  "shortdescription" : "Cruiseship Background",
+  "scannable" : false,
+  "printable" : false,
+  "race" : "human",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "essential_gc_ship01part5.png",
+      "imagePosition" : [0, 0],
+      "renderLayer" : "BackgroundOverlay",
+      "metaBoundBox" : [-1000, -1000, 1000, 1000],
+
+      "anchors" : [  ]
+    }
+  ]
+}

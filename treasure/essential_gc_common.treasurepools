@@ -1,0 +1,21 @@
+{
+  "essential_gc_ship01cargo" : [
+    [0, {
+      "fill" : [
+        {"item" : ["colonydeed", 10]},
+        {"item" : ["outpostfridge", 4]},
+		{"item" : ["outpostcookingtable", 2]},
+		{"item" : ["fireextinguisher", 2]},
+        {"item" : ["stationdoor", 4]},
+		{"item" : ["protectoratelobbyplant", 12]},
+		{"item" : ["outpostwall1", 50]},
+		{"item" : ["outpostwall2", 50]},
+		{"item" : ["outpostsupport", 50]},
+		{"item" : ["composite01", 50]},
+		{"item" : ["slopedhullpanel", 50]},
+		{"item" : ["slopedinsetpanel", 50]},
+        {"item" : "futureteleporter"}
+      ]
+    }]
+  ]
+}

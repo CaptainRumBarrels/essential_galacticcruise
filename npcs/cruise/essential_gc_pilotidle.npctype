@@ -1,0 +1,36 @@
+{
+  "type" : "essential_gc_pilotidle",
+  "baseType" : "villager",
+
+  "scriptConfig" : {
+    "behavior" : "lounger",
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : "/dialog/shipcrew.config:converse"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+		  {
+            "head" : [
+			{ "name" : "captainshead", "parameters" : { "colorIndex" : 0 } }
+			],
+            "chest" : [
+			{ "name" : "smartchest", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "startrackchest", "parameters" : { "colorIndex" : 3 } }
+			],
+            "legs" : [ { "name" : "humantier3pants", "parameters" : { "colorIndex" : 3 } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [
+              "npcpistol"
+            ]
+          }		  
+        ] ]
+    ]
+  }
+}

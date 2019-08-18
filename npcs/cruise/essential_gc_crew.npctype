@@ -1,0 +1,71 @@
+{
+  "type" : "essential_gc_crew",
+  "baseType" : "guard",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : "/dialog/shipcrew.config:converse"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "minerhead", "parameters" : { "colorIndex" : 0 } } ],
+            "chest" : [ { "name" : "minerchest", "parameters" : { "colorIndex" : 0 } } ],
+            "legs" : [ { "name" : "humantier2pants", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [
+              "npcpistol"
+            ]
+          },
+		  {
+            "head" : [
+			{ "name" : "foundryhardhathead" },
+			{ "name" : "safetyhelmethead" }
+			],
+            "chest" : [
+			{ "name" : "mercenarychest", "parameters" : { "colorIndex" : 6 } },
+			{ "name" : "foundrychest", "parameters" : { "colorIndex" : 0 } }
+			],
+            "legs" : [ { "name" : "foundrylegs", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [
+              "npcpistol"
+            ]
+          },
+		  {
+            "head" : [
+			{ "name" : "industrialcrewhead", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "mechpilothead", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "spacebirdhead", "parameters" : { "colorIndex" : 1 } }
+			],
+            "chest" : [ { "name" : "neochest", "parameters" : { "colorIndex" : [0,1] } } ],
+            "legs" : [ { "name" : "neolegs", "parameters" : { "colorIndex" : [0,1] } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [
+              "npcpistol"
+            ]
+          },
+		  {
+            "head" : [ { "name" : "industrialcrewhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "spacesuitchest", "parameters" : { "colorIndex" : 0 } } ],
+            "legs" : [ { "name" : "spacesuitlegs", "parameters" : { "colorIndex" : 0 } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [
+              "npcpistol"
+            ]
+          }
+		  
+        ] ]
+    ]
+  }
+}

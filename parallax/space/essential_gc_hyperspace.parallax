@@ -1,0 +1,562 @@
+{
+  "verticalOrigin" : 0,
+
+  "layers" : [
+  
+    //hyperspace day
+	
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 0],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 500000,
+      "maxSpeed" : 500000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 25],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 1000000,
+      "maxSpeed" : 1000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 50],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 1500000,
+      "maxSpeed" : 1500000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 75],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 2000000,
+      "maxSpeed" : 2000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 100],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 4000000,
+      "maxSpeed" : 4000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 125],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 6000000,
+      "maxSpeed" : 6000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 150],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 8000000,
+      "maxSpeed" : 8000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 175],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 200],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 225],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 250],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 275],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 15000000,
+      "maxSpeed" : 15000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 300],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 15000000,
+      "maxSpeed" : 15000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 325],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 350],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 375],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 400],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 425],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 8000000,
+      "maxSpeed" : 8000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 475],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 8000000,
+      "maxSpeed" : 8000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 500],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 6000000,
+      "maxSpeed" : 6000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 525],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 4000000,
+      "maxSpeed" : 4000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 550],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 2000000,
+      "maxSpeed" : 2000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 575],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 1500000,
+      "maxSpeed" : 1500000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 575],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 1000000,
+      "maxSpeed" : 1000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 575],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 500000,
+      "maxSpeed" : 500000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "dayVisible"
+    },
+	
+	// essential_gc_hyperspace night
+	
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 0],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 500000,
+      "maxSpeed" : 500000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 25],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 1000000,
+      "maxSpeed" : 1000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 50],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 1500000,
+      "maxSpeed" : 1500000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 75],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 2000000,
+      "maxSpeed" : 2000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 100],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 4000000,
+      "maxSpeed" : 4000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 125],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 6000000,
+      "maxSpeed" : 6000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 150],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 8000000,
+      "maxSpeed" : 8000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 175],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 200],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 225],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 250],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 275],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 15000000,
+      "maxSpeed" : 15000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 300],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 15000000,
+      "maxSpeed" : 15000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 325],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 350],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 375],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 400],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 12000000,
+      "maxSpeed" : 12000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 425],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 8000000,
+      "maxSpeed" : 8000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 475],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 8000000,
+      "maxSpeed" : 8000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 500],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 6000000,
+      "maxSpeed" : 6000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 525],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 4000000,
+      "maxSpeed" : 4000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 550],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 2000000,
+      "maxSpeed" : 2000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 575],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 1500000,
+      "maxSpeed" : 1500000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 575],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 1000000,
+      "maxSpeed" : 1000000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+	{
+      "kind" : "essential_gc_hyperspace",
+      "offset" : [0, 575],
+      "parallax" : 7.5,
+	  "baseCount" : 1,
+      "minSpeed" : 500000,
+      "maxSpeed" : 500000,
+      "fadePercent" : 0.0,
+	  "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    }
+  ]
+}

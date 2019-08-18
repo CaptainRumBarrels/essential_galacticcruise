@@ -1,0 +1,29 @@
+{
+  "type" : "essential_gc_securityidle",
+  "baseType" : "villager",
+
+  "scriptConfig" : {
+    "behavior" : "lounger",
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : "/dialog/shipcrew.config:converse"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "humantier1head" } ],
+            "chest" : [ { "name" : "pathfinderchest" } ],
+            "legs" : [ { "name" : "humantier3pants", "parameters" : { "colorIndex" : 8 } } ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcmachinepistol" ]
+          }
+        ] ]
+    ]
+  }
+}
